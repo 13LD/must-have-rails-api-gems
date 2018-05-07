@@ -1,5 +1,6 @@
 # must-have-rails-api-gems
 
+This is a list of what was used in production.
 A collection of awesome Ruby Gems for Rails development.
 
 The goal is to help every Rails developer to build an awesome Rails Api application/engine.
@@ -41,7 +42,7 @@ The goal is to help every Rails developer to build an awesome Rails Api applicat
 * [MiniMagick](https://github.com/minimagick/minimagick) - MiniMagick is a ruby wrapper for ImageMagick or GraphicsMagick command line.
 * [Paperclip](https://github.com/thoughtbot/paperclip) - Easy file attachment management for ActiveRecord.
 
-### Searching
+### Searching (choose one)
 * [pg_search](https://github.com/Casecommons/pg_search) - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search (almost enough for all apps)
 * [searchkick](https://github.com/ankane/searchkick) - Intelligent search made easy with Rails and Elasticsearch.
 
@@ -50,7 +51,7 @@ The goal is to help every Rails developer to build an awesome Rails Api applicat
 * [Resque](https://github.com/resque/resque) - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
 * [Sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby.
 
-### Environment Variables
+### Environment Variables (choose one)
 * [Figaro](https://github.com/laserlemon/figaro) - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
 * [dotenv](https://github.com/bkeepers/dotenv) - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
 
@@ -62,11 +63,11 @@ The goal is to help every Rails developer to build an awesome Rails Api applicat
 * [Lograge](https://github.com/roidrage/lograge) - An attempt to tame Rails' default policy to log everything.
 
 
-## Coding Style
+### Coding Style
 * [RuboCop](https://github.com/bbatsov/rubocop) - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
 * [Rails Best Practice](https://github.com/railsbp/rails_best_practices) - Rails best practice is a code metric tool to check the quality of rails codes.
 
-## Testing
+### Testing
 * [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
 * [factory_bot](https://github.com/thoughtbot/factory_bot) - Factory_bot is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
 * [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails) - Factory_bot_rails provides Rails integration for factory_bot.
@@ -76,4 +77,18 @@ The goal is to help every Rails developer to build an awesome Rails Api applicat
   
   
 
+### Production (choose one)
+* [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
+* [Mina](https://github.com/mina-deploy/mina) - fast deployer and server automation tool.
 
+### Database
+* [rails_db](https://github.com/igorkasyanchuk/rails_db) - Rails Database Viewer and SQL Query Runner
+
+### Another useful links
+* [awesome-rails-gem](https://github.com/hothero/awesome-rails-gem)
+* [awesome-ruby](https://github.com/markets/awesome-ruby)
+
+
+## Contribute
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
