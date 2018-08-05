@@ -1,7 +1,7 @@
 # must-have-rails-api-gems
 
 This is a list of what was used in production.
-A collection of awesome Ruby Gems for Rails development.
+A collection of awesome Ruby Gems for Rails development
 
 The goal is to help every Rails developer to build an awesome Rails Api application/engine.
 
